@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f2f2f2;
+
+}
+
+/* ------------ css for container --------------------------------- */
+
+.container {
+    padding: 0 20px;
+}
+
+/* ------------- css for sub-container ----------------------------- */
+
+.sub-container {
+    max-width: 1200px;
+    width: 100%;
+    height: 500px;
+    margin: 50px auto 0;
+    display: flex;
+    background: white;
+    box-shadow: 5px 5px 8px 8px lightslategray;
+    overflow-y: scroll;
+}
+
+/* ---------- css for image ------------------------------------------ */
+
+.sub-container .banner-img {
+
+    width: 600px;
+    height: 100%;
+    top: 0%;
+    position: sticky;
+    z-index: 1;
+}
+
+.sub-container .banner-img img {
+    width: 100%;
+    height: 100%;
+}
+
+/* ------------ css for form --------------------------------------------*/
+
+.sub-container .form #lab_form {
+
+    width: 600px;
+    height: 250%;
+    padding: 50px 0px 0px 50px;
+    position: relative;
+}
+
+.sub-container .form .contact {
+    width: 40%;
+    height: 30px;
+    margin: 5px;
+    border-style: none;
+    box-shadow: 0px 2px rgb(194, 197, 199);
+}
+
+.sub-container .form .address {
+    width: 40%;
+    height: 30px;
+    margin: 5px;
+    border-style: none;
+    box-shadow: 0px 2px rgb(194, 197, 199);
+}
+
+.sub-container .form .district {
+    width: 35%;
+    height: 35px;
+    border-style: none;
+    box-shadow: 0px 0px 2px 2px rgb(194, 197, 199);
+}
+
+.sub-container .form .date {
+    width: 30%;
+    height: 30px;
+    text-size-adjust: 5px;
+    border-style: none;
+    box-shadow: 0px 0px 2px 2px rgb(194, 197, 199);
+}
+
+.sub-container .form .time {
+    width: 20%;
+    height: 30px;
+    border-style: none;
+    box-shadow: 0px 0px 2px 2px rgb(194, 197, 199);
+
+}
+
+div#contact {
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+div#address {
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+div 
+h4 {
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+div.Test-Type {
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+div#Test-Type , input{
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+div#report {
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+
+
+div#date-time {
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+#date-time , label{
+    
+    margin-right: 10px;
+}
+
+/* ------------ css for button --------------------------------------------*/
+
+
+.button {
+    text-align: center;
+
+}
+
+.button :hover {
+    cursor: pointer;
+}
+
+.button input {
+    background-color: rgb(148, 107, 187);
+    color: white;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 5px;
+    border-width: 0px;
+}
+
+/* --------------------------------------------------------------------------- */
